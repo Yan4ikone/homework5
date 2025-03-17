@@ -7,5 +7,5 @@ import org.aeonbits.owner.Config;
 
 public interface ConfigProperties extends Config {
     @Config.Key("base.url")
-    String baseUrl();
+    String baseUrl(String url);
 }
